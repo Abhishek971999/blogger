@@ -8,6 +8,9 @@ class Contact extends Component {
             <form class='form-section'>
               <div class='form-group'>
                 <h4 for='exampleInputEmail1' class='contact-header-text'>
+                  <span class='mr-3'>
+                    <i class='material-icons'>email</i>
+                  </span>
                   Enter your Email address
                 </h4>
                 <input

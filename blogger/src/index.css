@@ -88,3 +88,34 @@ code {
 .contact-header-text {
   text-transform: capitalize;
 }
+
+.post-img {
+  height: 500px;
+  margin-left: 200px;
+  margin-bottom: 30px;
+}
+
+.post-subtext {
+  font-size: x-large;
+  margin-bottom: 30px;
+}
+
+.button {
+  text-decoration: none;
+  padding: 10px 40px;
+  background-color: #5c54d9;
+  color: white;
+  border-radius: 100px;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  text-decoration: none;
+  padding: 10px 40px;
+  background-color: #a31ed8;
+  color: white;
+}
+
+.post-container {
+  margin-bottom: 60px;
+}

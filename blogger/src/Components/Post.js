@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import Typewriter from '../typewriter.png';
+import Blogging from '../blogging.png';
 import { Link } from 'react-router-dom';
 class Post extends Component {
   state = {
@@ -18,7 +18,7 @@ class Post extends Component {
     const post = this.state.post ? (
       <div class='container post-container'>
         <h1 class='display-4 text-center'>{this.state.post.title}</h1>
-        <img class='post-img' src={Typewriter} alt='' />
+        <img class='post-img' src={Blogging} alt='' />
         <p class='post-subtext'>{this.state.post.body}</p>
         <Link to='/' class='button'>
           Go back

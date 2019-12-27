@@ -45,6 +45,7 @@ code {
   margin-top: 10px;
   margin-left: 30%;
   transition: all 0.5s;
+  border: none;
 }
 
 .btn:hover {
@@ -54,5 +55,36 @@ code {
 
 .text-alt {
   margin-top: 150px;
-  color: red;
+  color: #a31ed8;
+}
+
+.contact-us-section {
+  background-image: linear-gradient(to right, #5d54d960, #a31ed863),
+    url('https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=974&q=80');
+  background-size: cover;
+  background-position: center;
+  height: 90.8vh;
+  overflow: hidden;
+}
+
+.form-section {
+  background-color: rgba(255, 255, 255, 0.623);
+  color: #a31ed8;
+  margin-top: 180px;
+  padding: 50px 100px;
+  border-radius: 50px;
+}
+
+.input-field:focus {
+  border-color: #a31ed8;
+  box-shadow: 0 0 0 1px #a31ed8;
+  color: #5c54d9;
+}
+
+#emailHelp {
+  color: #760792;
+}
+
+.contact-header-text {
+  text-transform: capitalize;
 }
